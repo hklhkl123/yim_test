@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element 'By.xpath: //*[contains(@text,'搜索')]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "test_search_click_speak",
+        "uid" : "29d585b77426524f",
+        "parentUid" : "ccaba09b0b8e75db06a3513929a64c04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621848611481,
+          "stop" : 1621848615567,
+          "duration" : 4086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccaba09b0b8e75db06a3513929a64c04"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

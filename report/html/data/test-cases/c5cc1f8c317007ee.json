@@ -1,0 +1,90 @@
+{
+  "uid" : "c5cc1f8c317007ee",
+  "name" : "test_roll_click_speak",
+  "fullName" : "scripts.test_speak.TestSpeak#test_roll_click_speak",
+  "historyId" : "3f8a25b1859766bebdc1db1639e020ba",
+  "time" : {
+    "start" : 1621848572470,
+    "stop" : 1621848586897,
+    "duration" : 14427
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤002",
+      "time" : {
+        "start" : 1621848572470,
+        "stop" : 1621848586897,
+        "duration" : 14427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_speak"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSpeak"
+  }, {
+    "name" : "host",
+    "value" : "JZTech-HeKalei"
+  }, {
+    "name" : "thread",
+    "value" : "13888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_speak"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37f1d139c35488b8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 已经玩过了",
+      "time" : {
+        "start" : 1621846364855,
+        "stop" : 1621846364855,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5cc1f8c317007ee.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+Search_Data:
+  search_test_001:
+    expect:
+    - 4
+    - 5
+    - 6
+    value: 456
+  search_test_002:
+    expect:
+      value: 你好
+    value: 你好
+
+Speak_Data:
+  speak_test_001:
+    type:
+      - chat
+      - search
+    content:
+      - 11111
+      - 22
+      - 333333
+  speak_test_002:
+    ["chat":"111111","chat":"222222"]
+
+
+
