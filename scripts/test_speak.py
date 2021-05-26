@@ -21,6 +21,7 @@ def package_param_data():
 
 # package_param_data()
 
+#类的名字不需要下划线，就这个就可以
 class TestSpeak(object):
 
     def setup(self):
