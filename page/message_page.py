@@ -21,6 +21,7 @@ class MessagePage(BaseAction):
 
     def __init__(self,driver):
         BaseAction.__init__(self,driver)
+        #这个下面其实一般会加上其他固定步骤，比如我只要测试message，但是我需要先进入这里A点击B，就可以放这
 
     def click_group1(self):
         self.click(self.group1)
