@@ -12,7 +12,7 @@ class MessagePage(BaseAction):
     group1 = By.XPATH, "text,智能云官方交流群,1"
     group2 = By.XPATH, "//*[contains(@text,'唐凯丽PK群')]"
     #如果是数组那么就会进行拼接
-    group3 = By.XPATH, ["text,云聊官方交流群","resource-id,com.yidejia.yim.test:id/tv_name"]
+    group3 = By.XPATH, ["text,云聊官方交流群,1","resource-id,com.yidejia.yim.test:id/tv_name,0"]
     smartrobot_button = By.XPATH,"//*[contains(@resource-id,'com.yidejia.yim.test:id/iv_assist')]"
     more_button = By.XPATH,"//*[contains(@resource-id,'com.yidejia.yim.test:id/base_iv_right')]"
     search_button = By.XPATH,"text,搜索"
