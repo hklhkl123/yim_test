@@ -55,6 +55,7 @@ class TestSpeak(object):
     def test_search_click_speak(self):
         self.message_page.roll_xy()
         self.message_page.click_search_button()
+        time.sleep(3)
         self.message_page.input_text("search","云聊官方交流群")
         self.message_page.click_group3()
         self.message_page.input_text("chat","终于到云聊官方了")

@@ -26,4 +26,4 @@ class TestDebug(object):
 
 
 if __name__ == "__main__":
-    pytest.main(["-s","test_debug.py"])
+    pytest.main(["-s","skip_test_debug.py"])
