@@ -1,0 +1,33 @@
+
+test_click_speak :
+  -
+    - 'chat'
+    - '11111智能云群说'
+  -
+    - 'chat'
+    - '2222222智能云群说'
+  -
+    - 'chat'
+    - '3333333智能云群说'
+
+test_roll_click_speak :
+  -
+    - 'chat'
+    - 'password4'
+  -
+    - 'chat'
+    - 'password5'
+  -
+    - 'name6'
+    - 'password6'
+
+test_search_click_speak :
+  -
+    name : 'name7'
+    password : 'password7'
+  -
+    name : 'name8'
+    password : 'password8'
+  -
+    name : 'name9'
+    password : 'password9'
