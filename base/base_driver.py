@@ -21,5 +21,8 @@ def init_driver():
     desired_caps['noReset'] =True
     desired_caps['dontStopAppOnReset'] =True
 
+    # toast
+    desired_caps['automationName'] = 'Uiautomator2'
+
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
     return driver

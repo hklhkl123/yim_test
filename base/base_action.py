@@ -72,3 +72,18 @@ class BaseAction(object):
         loc = feature_start + feature + feature_end
 
         return loc
+
+    def find_toast(self, message, timeout=3, poll=0.1):
+        """
+        # message: 预期要获取的toast的部分消息
+        """
+        message = "//*[contains(@text,'" + message + "')]"  # 使用包含的方式定位
+        element = self.find_element((By.XPATH, message), timeout, poll)
+        return element.text
+
+    def is_toast_exist(self, message, timeout=3, poll=0.1):
+        try:
+            self.find_toast(message, timeout, poll)
+            return True
+        except Exception:
+            return False
