@@ -1,27 +1,26 @@
-Search_Data:
-  search_test_001:
-    expect:
-    - 4
-    - 5
-    - 6
-    value: 456
-  search_test_002:
-    expect:
-      value: 你好
-    value: 你好
+test_login0 :
+  - 'name1'
+  - 'name2'
+  - 'name3'
 
-Speak_Data:
-  speak_test_001:
-    type:
-      - chat
-      - search
-    content:
-      - 11111
-      - 22
-      - 333333
-  speak_test_002:
-    ["chat":"111111","chat":"222222"]
-  speak_test_003:
-    name = 66666
+test_login1 :
+  -
+    - 'name4'
+    - 'password4'
+  -
+    - 'name5'
+    - 'password5'
+  -
+    - 'name6'
+    - 'password6'
 
-
+test_login2 :
+  -
+    name : 'name7'
+    password : 'password7'
+  -
+    name : 'name8'
+    password : 'password8'
+  -
+    name : 'name9'
+    password : 'password9'

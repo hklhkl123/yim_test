@@ -12,7 +12,8 @@ class MessagePage(BaseAction):
     group1 = By.XPATH, "text,智能云官方交流群,1"
     group2 = By.XPATH, "//*[contains(@text,'唐凯丽PK群')]"
     #如果是数组那么就会进行拼接
-    group3 = By.XPATH, ["text,云聊官方交流群","resource-id,com.yidejia.yim.test:id/tv_name"]
+    group3 = By.XPATH, ["text,云聊官方交流群,1","resource-id,com.yidejia.yim.test:id/tv_name,0"]
+    group4 = By.XPATH,"text,广州二部单位群111,1"
     smartrobot_button = By.XPATH,"//*[contains(@resource-id,'com.yidejia.yim.test:id/iv_assist')]"
     more_button = By.XPATH,"//*[contains(@resource-id,'com.yidejia.yim.test:id/base_iv_right')]"
     search_button = By.XPATH,"text,搜索"
@@ -24,6 +25,7 @@ class MessagePage(BaseAction):
         BaseAction.__init__(self,driver)
         #这个下面其实一般会加上其他固定步骤，比如我只要测试message，但是我需要先进入这里A点击B，就可以放这
 
+    #点击进入指定群
     def click_group1(self):
         self.click(self.group1)
 
@@ -32,6 +34,9 @@ class MessagePage(BaseAction):
 
     def click_group3(self):
         self.click(self.group3)
+
+    def click_group4(self):
+        self.click(self.group4)
 
     def click_search_button(self):
         self.click(self.search_button)

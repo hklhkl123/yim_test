@@ -7,7 +7,7 @@ sys.path.append(os.getcwd())
 
 from base.base_driver import init_driver
 from page.message_page import MessagePage
-from base.read_yaml import Read_Data
+from base.base_yaml import Read_Data
 
 class TestDebug(object):
     def setup(self):
