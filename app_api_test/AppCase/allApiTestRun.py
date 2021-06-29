@@ -3,7 +3,7 @@ import unittest
 import HTMLTestRunner
 from app_api_test.common.setting import filename1, case_path1, report_name
 
-# 获取所有测试用例
+# 配置文件在common的setting中
 def get_allcase():
     # 测试用例存放路径
     case_path = case_path1

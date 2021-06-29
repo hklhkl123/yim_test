@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
+
 class BaseAction(object):
 
     def __init__(self, driver):
@@ -16,7 +17,7 @@ class BaseAction(object):
         by = loc[0]
         value = loc[1]  # "text,0"
         if by == By.XPATH:
-            value = self.make_xpath_with_feature(value) # //*
+            value = self.make_xpath_with_feature(value)  # //*
             print(value)
         return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(by, value))
 
@@ -24,7 +25,7 @@ class BaseAction(object):
         by = loc[0]
         value = loc[1]
         if by == By.XPATH:
-            value = self.make_xpath_with_feature(value) # //*
+            value = self.make_xpath_with_feature(value)  # //*
         return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_elements(by, value))
 
     def make_xpath_with_unit_feature(self, loc):
